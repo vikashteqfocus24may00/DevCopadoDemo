@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- vikash -->
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
@@ -182,22 +181,12 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Field_Three__c</fullName>
+        <fullName>Field_Five__c</fullName>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Field Three</label>
-        <required>false</required>
+        <label>Field Five</label>
         <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Field_Four__c</fullName>
-        <externalId>false</externalId>
-        <label>Field Four</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
+        <type>Checkbox</type>
     </fields>
     <validationRules>
         <fullName>DemoValidationRuleOne</fullName>
